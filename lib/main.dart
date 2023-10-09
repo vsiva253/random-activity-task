@@ -83,7 +83,7 @@ class _MyAppState extends State<MyApp> {
           bottom: PreferredSize(
             preferredSize: const Size.fromHeight(1.0),
             child: Container(
-              color: Colors.grey.shade400,
+              color: Colors.blue,
               height: 1.0,
             ),
           ),
@@ -91,19 +91,19 @@ class _MyAppState extends State<MyApp> {
             child: Text(
               'Random Activity',
               style: TextStyle(
-                color: Colors.blue.shade800,
+                color: Colors.white,
                 fontFamily: 'ProfessionalFont',
                 fontSize: 24,
                 shadows: [
                   Shadow(
-                    color: Colors.grey.shade400,
+                    color: Colors.black.withOpacity(0.5),
                     blurRadius: 10,
                   ),
                 ],
               ),
             ),
           ), // Centered title with custom font and larger size
-          backgroundColor: Colors.grey.shade300, // App bar background color
+          backgroundColor: Colors.blue, // App bar background color
           elevation: 0, // Remove app bar elevation
         ),
         body: Container(
